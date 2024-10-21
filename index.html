@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Про IT-фест</title>
+	<link rel="stylesheet" href="css/syle.css">
+	<link rel="shortcut icon" href="images/logo-it-fest.svg" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a class="logo" href="index.html"><img src="images/logo-it-fest.svg" alt="логотип IT-фест"></a>
+				<nav class="nav">
+					<ul class="menu">
+						<li class="menu__item"><a href="#when" class="menu__link">КОГДА</a></li>
+						<li class="menu__item"><a href="#timetable" class="menu__link">РАСПИСАНИЕ</a></li>
+						<li class="menu__item"><a href="#location" class="menu__link">МЕСТОПОЛОЖЕНИЕ</a></li>
+						<li class="menu__item"><a href="#sponsors" class="menu__link">ПАРТНЕРЫ</a></li>
+						<li class="menu__item none"><a href="https://itcube.dm-centre.ru/" class="menu__link">О ЦЕНТРЕ</a></li>
+					</ul>
+				</nav>
+				<div class="burger">
+					<span></span>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+
+			<section class="about-itfest">
+				<img src="images/cube-left.png" alt="декоративный элемент кубы" class="about-itfest__decor1">
+				<img src="images/cube-right.png" alt="декоративный элемент кубы" class="about-itfest__decor2">
+				<div class="about-itfest__container">
+					<h1 class="about-itfest__title">ПроIT-фест</h1>
+					<p class="about-itfest__info">фестиваль технической направленности, который направлен на
+						популяризацию технического творчества для школьников Свердловской области, имеющих опыт в
+						инженерно-технической и изобретательской деятельности.</p>
+				</div>
+			</section>
+
+			<section class="lesson" id="when">
+				<div class="lesson__container">
+					<div class="lesson-time__container">
+						<p class="lesson__time">1 ноября </p>
+						<p class="lesson__times">с 12:00-16:00 </p>
+						<div class="lesson-place__container">
+							<p class="lesson__time">в «IT-Куб»</p>
+							<p class="lesson__place">ул. Красных Командиров, 11а. </p>
+						</div>
+
+					</div>
+					<p class="lesson__information">Будут проводиться лекции и <br>
+						мастер-классы для детей 8-17 лет </p>
+				</div>
+				<!-- слайдер -->
+				<div class="slider__container">
+					<div class="slider">
+						<div class="slck-slide"><img class="img__slider" src="images/1.png" alt="лекции"></div>
+						<div class="slck-slide"><img class="img__slider" src="images/lec2.png" alt="лекции"></div>
+						<div class="slck-slide"><img class="img__slider" src="images/3.png" alt="лекции"></div>
+						<div class="slck-slide"><img class="img__slider" src="images/lec3.png" alt="лекции"></div>
+						<div class="slck-slide"><img class="img__slider" src="images/robo.png" alt="лекции"></div>
+						<div class="slck-slide"><img class="img__slider" src="images/7.png" alt="лекции"></div>
+						<div class="slck-slide"><img class="img__slider" src="images/pk.png" alt="лекции"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="timetable" id="timetable">
+				<h2 class="timetable__title">Расписание мастер-классов <br> и лекций</h2>
+				<div class="timetable__container">
+					<div class="timetable-slider__container">
+						<div class="slider-title__container">
+							<h4 class="slider__title">Аудитория</h4>
+							<h4 class="slider__title">Время</h4>
+							<h4 class="slider__title">Мастер-класс/лекция</h4>
+						</div>
+						<div class="container">
+							<div class="timetable-slider">
+								<img class="timetable-slide" src="images/tone.png" alt="лекции">
+								<img class="timetable-slide" src="images/ttwo.png" alt="лекции">
+								<img class="timetable-slide" src="images/tthree.png" alt="лекции">
+								<img class="timetable-slide" src="images/tfour.png" alt="лекции">
+							</div>
+							<button class="prev-button" aria-label="Посмотреть предыдущий слайд"><img src="images/back-page.png"
+									alt="стрелочка"></button>
+							<button class="next-button" aria-label="Посмотреть следующий слайд"><img src="images/next-page.png"
+									alt="стрелочка"></button>
+						</div>
+					</div>
+					<div class="timetable__interactive">
+						<h4 class="interactive__title">Будет интерактивная зона <br>(коворкинг)</h4>
+						<p class="interactive__time">12:00-16:00</p>
+						<p class="interactive__info">место для проходящего потока <br> с призами и др. "плюшками"</p>
+						<p class="interactive__info">Актуальна ДО и ПОСЛЕ <br> участия в МК/лекциях</p>
+						<img src="images/surp.svg" alt="подарок" class="surp">
+					</div>
+				</div>
+			</section>
+
+			<section class="location" id="location">
+				<div class="location__container">
+					<div class="form__container">
+						<h4 class="form__title">Если вы готовы провести лекцию <br>
+							или мастер - класс на нашей площадке</h4>
+						<p class="form__text">оставьте свои данные и мы вам перезвоним</p>
+						<form action="#" method="post">
+							<input type="text" class="form__input" placeholder="Фамилия Имя Отчество*" required><br>
+							<input type="tel" class="form__input" placeholder="Телефон*" required><br>
+							<button href="#" class="form__button">ОТПРАВИТЬ</button>
+						</form>
+					</div>
+					<div class="map__container">
+						<h4 class="map__title">Мероприятие пройдет на площадке <br> центра цифрового образования
+							«IT-куб» </h4>
+
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2179.1055825514163!2d60.6198190764361!3d56.895577603397946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c172758061f43d%3A0xee919dba4d3e43be!2z0YPQuy4g0JrRgNCw0YHQvdGL0YUg0JrQvtC80LDQvdC00LjRgNC-0LIsIDEx0LAsINCV0LrQsNGC0LXRgNC40L3QsdGD0YDQsywg0KHQstC10YDQtNC70L7QstGB0LrQsNGPINC-0LHQuy4sIDYyMDEzNQ!5e0!3m2!1sru!2sru!4v1728843747390!5m2!1sru!2sru"
+							width="710" height="467" style="border:0;" allowfullscreen="" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+						<div class="adress__container">
+							<img class="map__icon" src="images/map.svg" alt="карта">
+							<p class="adress">г. Екатеринбург, ул. Красных Командиров, 11а </p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="sponsors" id="sponsors">
+				<h2 class="sponsors__title">Партнеры мероприятия</h2>
+				<div class="sponsors__container">
+					<div class="sponsors__item">
+						<div class="sponsor-logo__container">
+							<img class="urfu" src="images/yrfu-Photoroom 1.png" alt="Урфу">
+						</div>
+						<div class="sponsor__info">
+							Институт радиоэлектроники и информационных технологий-РТФ — это один из крупнейших
+							институтов Урала, осуществляющий подготовку профессионалов ИТ-сферы, информационной
+							безопасности и защиты информации, а также специалистов в разработке систем IoT,
+							радиотехнике, электронике и системах связи.
+						</div>
+					</div>
+					<div class="sponsors__item">
+						<div class="sponsor-logo__container">
+							<img src="images/orig25ee4-Photoroom 1.png" alt="ИЭРиЖ">
+						</div>
+						<div class="sponsor__info">
+							Институт экологии растений и животных Уральского отделения Российской академии наук (ИЭРиЖ
+							УрО РАН) — крупнейший научно-исследовательский институт эколого-биологического профиля в
+							Уральском регионе, один из лидеров фундаментальных исследований в области экологии и охраны
+							окружающей среды в России.
+						</div>
+					</div>
+					<div class="sponsors__item">
+						<div class="sponsor-logo__container bottom">
+							<img src="images/logo_YETM 1.png" alt="УЭТЭМ">
+						</div>
+						<div class="sponsor__info adaptiv-up">
+							Акционерное общество «Уралэлектротяжмаш» – крупнейшее предприятие в области силового
+							электротехнического оборудования для генерирования, передачи, распределения и потребления
+							энергии.
+						</div>
+					</div>
+					<div class="sponsors__item">
+						<div class="sponsor-logo__container">
+							<img src="images/Very-intersting 1.png" alt="Очень интресно">
+						</div>
+						<div class="sponsor__info adaptiv-up">
+							Это растущая команда профессионалов, которая меняет мир к лучшему. Помогает клиентам решать
+							нестандартные задачи, создают и оптимизируют алгоритмы, используя современный арсенал
+							технологий.
+						</div>
+					</div>
+				</div>
+
+				<div class="sponsors__container-bottom">
+					<div class="sponsors__item">
+						<div class="sponsor-bottom__container">
+							<img src="images/SalesKit 1.png" alt="SaleKit">
+						</div>
+						<div class="sponsor-bottom__info">
+							Екатеринбургская компания SalesKit занимается разработкой мобильных приложений и сайтов для
+							сферы общепита и интернет-магазинов.
+						</div>
+					</div>
+					<div class="sponsors__item">
+						<div class="sponsor-bottom__container">
+							<img class="eetk" src="images/eetk.png" alt="ЕЭТК">
+						</div>
+						<div class="sponsor-bottom__info">
+							Екатеринбургский экономико-технологический колледж -государственное автономное
+							профессиональное образовательное учреждение Свердловской области.
+						</div>
+					</div>
+					<div class="sponsors__item">
+						<div class="sponsor-bottom__container bottom novator">
+							<img src="images/novator.png" alt="Новатор">
+						</div>
+						<div class="sponsor-bottom__info adaptiv-down">
+							Опытное-конструкторское бюро «Новатор» имени Люльева Л. В. — 
+							советское и российское проектно-конструкторское бюро, основанное
+							в 1947 году как подразделение
+							Машиностроительного завода им. М. И. Калинина в Екатеринбурге.
+						</div>
+					</div>
+					<div class="sponsors__item">
+						<div class="sponsor-bottom__container">
+							<img class="eacu" src="images/Ekater._akad_._sovrem_._iskusstva_.png" alt="ЕАСИ">
+						</div>
+						<div class="sponsor-bottom__info adaptiv-down">
+							ЕАСИ - это динамично развивающаяся научно-исследовательская площадка для изучения трендов развития
+							аудитории культуры и постиндустриальных пространств
+						</div>
+					</div>
+					<div class="sponsors__item">
+						<div class="sponsor-bottom__container">
+							<img src="images/yrgey.png" alt="УрГЭУ">
+						</div>
+						<div class="sponsor-bottom__info adaptiv-yr">
+							Уральский государственный экономический университет – один из ведущих экономических вузов России. Это
+							динамично развивающийся образовательный центр, в котором готовят экономическую элиту Урала и других
+							регионов РФ.
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer-adress__container">
+					<h4 class="footer__adrees-title">Адрес:</h4>
+					<p class="footer__adress">ул. Красных Командиров, 11а,<br> г. Екатеринбург, Россия</p>
+				</div>
+				<div class="footer-logo__container">
+					<img class="footer__logo-molod" src="images/DM_Logo 1.png" alt="Дворец Молодежи">
+					<img class="footer__logo-obrazov" src="images/Obrazovanie_logo_chb_kontur_inversiya_lev-300x248-1 1.png"
+						alt="Национальные проекты России">
+				</div>
+
+				<div class="footer-contact__container">
+					<h4 class="footer__contact-title">Связяться с нами:</h4>
+					<p class="footer__contact">Тел.: +7 (343) 363-07-77 <br>itcube11a@gmail.com</p>
+					<a class="social" href="https://vk.com/cube_ekb?from=search"><img src="images/VK.png" alt="вконтакте"></a>
+				</div>
+			</div>
+
+		</footer>
+	</div>
+
+
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+
+	<script src="js/main.js"></script>
+	<script src="js/burger.js"></script>
+</body>
+
+</html>
