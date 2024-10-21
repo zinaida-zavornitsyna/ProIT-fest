@@ -1942,7 +1942,7 @@ iframe {
 
 	.adaptiv-yr {
 		top: 540px;
-		left: 30px;
+		left: 25px;
 	}
 
 	.footer__container {
@@ -1961,6 +1961,6 @@ iframe {
 	}
 
 	.footer-logo__container img {
-		max-width: 47%;
+		max-width: 80px;
 	}
 }
